@@ -18,8 +18,8 @@
     hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right,
-    hsl(45, 100%, 71%) 0%,
-    hsla(36, 100%, 69%, 0) 50%
+    hsl(0, 100%, 79%) 0%,
+    hsla(0, 100%, 79%) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
       135deg,
@@ -55,9 +55,6 @@
   --tsgh1: #454a4d;
   --tsgh4: #6a7b89;
   --tsgh2: hsl(0, 100%, 86%);
-  --tsgh3: #fee9a1;
-
-  --tsgh6: #cca2a7;
 
   /**
    * typography
@@ -123,7 +120,6 @@ li {
 img,
 ion-icon,
 a,
-button,
 time,
 span {
   display: block;
@@ -498,12 +494,27 @@ main {
   transition: color var(--transition-1);
 }
 
+.navbar-btn {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  transition: color var(--transition-1);
+}
+
 .navbar-link:hover,
 .navbar-link:focus {
   color: var(--light-gray-70);
 }
 
+.navbar-btn:hover,
+.navbar-btn:focus {
+  color: var(--light-gray-70);
+}
+
 .navbar-link.active {
+  color: var(--orange-yellow-crayola);
+}
+
+.navbar-btn.active {
   color: var(--orange-yellow-crayola);
 }
 
