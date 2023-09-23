@@ -12,8 +12,8 @@
   );
   --bg-gradient-jet: linear-gradient(
       to bottom right,
-      hsla(240, 1%, 18%, 0.251) 0%,
-      hsla(240, 2%, 11%, 0) 100%
+      hwb(201 30% 64%) 0%,
+      hsla(201, 8%, 33%) 100%
     ),
     hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
@@ -29,29 +29,35 @@
     hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(0, 0%, 25%) 0%,
-    hsla(0, 0%, 25%, 0) 50%
+    hsl(201, 9%, 39%) 0%,
+    hsla(201, 9%, 39%) 50%
   );
   --text-gradient-yellow: linear-gradient(
     to right,
-    hsl(45, 100%, 72%),
-    hsl(35, 100%, 68%)
+    hsl(0, 100%, 79%),
+    hsl(0, 52%, 70%)
   );
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
+  --jet: #556775;
+  --onyx: hsl(206, 16%, 40%);
+  --eerie-black-1: hsl(201, 9%, 39%);
+  --eerie-black-2: hsl(206, 16%, 40%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(0, 76%, 76%);
+  --vegas-gold: hsl(0, 76%, 76%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --tsgh1: #454a4d;
+  --tsgh4: #6a7b89;
+  --tsgh2: hsl(0, 100%, 86%);
+  --tsgh3: #fee9a1;
+
+  --tsgh6: #cca2a7;
 
   /**
    * typography
@@ -140,8 +146,8 @@ textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
-  color: var(--smoky-black);
+  background: var(--tsgh2);
+  color: var(--tsgh4);
 }
 
 :focus {
@@ -153,7 +159,7 @@ html {
 }
 
 body {
-  background: var(--smoky-black);
+  background: var(--tsgh4);
 }
 
 /*-----------------------------------*\
@@ -162,7 +168,7 @@ body {
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--tsgh1);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -686,7 +692,7 @@ main {
 }
 
 .skills-modal {
-  background: var(--eerie-black-2);
+  background: var(--tsgh1);
   position: relative;
   padding: 15px;
   margin: 15px 12px;
@@ -1021,7 +1027,7 @@ main {
 }
 
 .filter-select {
-  background: var(--eerie-black-2);
+  background: var(--tsgh1);
   color: var(--light-gray);
   display: flex;
   justify-content: space-between;
@@ -1039,7 +1045,7 @@ main {
 }
 
 .select-list {
-  background: var(--eerie-black-2);
+  background: var(--tsgh1);
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
@@ -1060,7 +1066,7 @@ main {
 }
 
 .select-item button {
-  background: var(--eerie-black-2);
+  background: var(--tsgh1);
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -1071,7 +1077,7 @@ main {
 }
 
 .select-item button:hover {
-  --eerie-black-2: hsl(240, 2%, 20%);
+  --tsgh: hsl(240, 2%, 20%);
 }
 
 .project-list {
@@ -1891,11 +1897,11 @@ textarea.form-input::-webkit-resizer {
   }
 
   body::-webkit-scrollbar-track {
-    background: var(--smoky-black);
+    background: var(--tsgh4);
   }
 
   body::-webkit-scrollbar-thumb {
-    border: 5px solid var(--smoky-black);
+    border: 5px solid var(--tsgh4);
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
     box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
