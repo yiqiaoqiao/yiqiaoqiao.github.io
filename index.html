@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yiqiaoqiao's personal website</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon.gif"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/myicon.jpeg"
+              alt="Yiqiao Wang"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Yiqiao Wang">Yiqiao Wang</h1>
+
+            <p class="title">Software Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:yqq0505@gmail.com" class="contact-link"
+                  >yqq0505@gmail.co</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+16267796640" class="contact-link"
+                  >+1 (626) 779-6640</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2001-05-05">May 05, 2001</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Los Angeles, California, USA</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.facebook.com/profile.php?id=100086549965354" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://twitter.com/yi_qiao_qiao" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/yi.qiao.qiao/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Hobbies</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hey! I'm Yiqiao Wang, also go by May, a senior year student
+              persueing Computer Science BS degree at UCLA. I am interested in
+              machine learning, game development and digital animation.
+            </p>
+            <p>Actively Seeking Opportunities:
+            <ul>
+              <li>
+                <strong>Entry-level software Engineer opportunities: </strong>
+                Looking for new grad SDE jobs starting January 2024.
+              </li>
+              <li>
+                <strong>Part time Front-end developer jobs: </strong>
+                Looking for part time front-end jobs until 2024.
+              </li>
+            </ul>
+            </p>
+          </section>
+
+          
+
+
+          
+
+          <!--
+          - skills
+        -->
+        <!--
+        <section class="skills">
+
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <ul class="skills-list has-scrollbar">
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-skills-avatar>
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Daniel lewis</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-skills-avatar>
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Jessica miller</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-skills-avatar>
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Emily evans</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="content-card" data-skills-item>
+
+                <figure class="skills-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-skills-avatar>
+                </figure>
+
+                <h4 class="h4 skills-item-title" data-skills-title>Henry william</h4>
+
+                <div class="skills-text" data-skills-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+        -->
+
+        <!--
+          - skills modal
+        -->
+        
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="skills-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        
+        <!--
+          - Languages
+        -->
+
+        <section class="languages">
+          <h3 class="h3 languages-title">Languages</h3>
+
+          <ul class="languages-list has-scrollbar">
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/C++.png
+              "
+                  alt="design icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">C++</h4>
+
+                <p class="languages-item-text">
+                  4 years experience with C++
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/Java.png"
+                  alt="Web development icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">Java</h4>
+
+                <p class="languages-item-text">
+                  4 years experience with Java
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/Python.png"
+                  alt="mobile app icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">Python</h4>
+
+                <p class="languages-item-text">
+                  4 years experience with Java
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/JavaScript.png"
+                  alt="camera icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">JavaScript</h4>
+
+                <p class="languages-item-text">
+                  2 years experience with JavaScript
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/HTML.png"
+                  alt="mobile app icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">HTML</h4>
+
+                <p class="languages-item-text">
+                  5 years experience with JavaScript
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/CSS.png"
+                  alt="mobile app icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">CSS</h4>
+
+                <p class="languages-item-text">
+                  5 years experience with CSS
+                </p>
+              </div>
+            </li>
+            
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/React.png"
+                  alt="mobile app icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">React</h4>
+
+                <p class="languages-item-text">
+                  1 years experience with React
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/Verilog.png"
+                  alt="mobile app icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">Verilog</h4>
+
+                <p class="languages-item-text">
+                  2 years experience with Verilog
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/ASM.png"
+                  alt="mobile app icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">ASM</h4>
+
+                <p class="languages-item-text">
+                  3 years experience with ASM
+                </p>
+              </div>
+            </li>
+
+            <li class="languages-item">
+              <div class="languages-icon-box">
+                <img
+                  src="./assets/images/Languages/C.png"
+                  alt="mobile app icon"
+                  width="40"
+                />
+              </div>
+
+              <div class="languages-content-box">
+                <h4 class="h4 languages-item-title">C</h4>
+
+                <p class="languages-item-text">
+                  2 years experience with C
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+          <!--
+          - Reach Me
+        -->
+
+        <section class="reach">
+          <h3 class="h3 reach-title">Reach Me</h3>
+
+          <ul class="reach-list has-scrollbar">
+            <li class="reach-item">
+              <a href="https://github.com/yiqiaoqiao">
+                <img
+                  src="./assets/images/Reach Me/github.png"
+                  alt="reach logo"
+                />
+              </a>
+            </li>
+
+            <li class="reach-item">
+              <a href="https://www.linkedin.com/in/yiqiaoqiao/">
+                <img
+                  src="./assets/images/Reach Me/linkedin.png"
+                  alt="reach logo"
+                />
+              </a>
+            </li>
+
+
+            <li class="reach-item">
+              <a href="mailto:yqq0505@gmail.com" class="contact-link"
+                  >
+                <img
+                  src="./assets/images/Reach Me/Email.png"
+                  alt="reach logo"
+                />
+              </a>
+            </li>
+
+            <li class="reach-item">
+              <a href="https://www.instagram.com/yi.qiao.qiao/">
+                <img
+                  src="./assets/images/Reach Me/ins.png"
+                  alt="reach logo"
+                />
+              </a>
+            </li>
+
+            <li class="reach-item">
+              <a href="https://twitter.com/yi_qiao_qiao">
+                <img
+                  src="./assets/images/Reach Me/twitter.png"
+                  alt="reach logo"
+                />
+              </a>
+            </li>
+
+            <li class="reach-item">
+              <a href="https://www.facebook.com/profile.php?id=100086549965354">
+                <img
+                  src="./assets/images/Reach Me/facebook.png"
+                  alt="reach logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </section>
+
+          
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Pasadena City College
+                </h4>
+                <span>Pasadena, CA</span>
+                <span>June 2019 - July 2022</span>
+
+                <p class="timeline-text">
+                  AA in Engineer and Technology&nbsp;&nbsp;&nbsp;GPA: 4.00 <br>
+                  Associates in Arts Degree	&nbsp;&nbsp;&nbsp;	GPA: 3.94
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University of California, Los Angeles (UCLA)</h4>
+
+                <span>Los Angeles, CA</span>
+                <span>September 2022 - Current</span>
+
+                <p class="timeline-text">
+                  B.S. in Computer Science	&nbsp;&nbsp;&nbsp;	GPA: 3.3
+                </p>
+              </li>
+
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Gan Intercultural Global</h4>
+                <span><i>Technical Officer</i></span>
+                <span>El Monte, CA</span>
+                <span>April 2021 - November 2021</span>
+
+                
+                  <ul>
+                    <li class="timeline-text">• Gathered and translated project requirements and worked to define scope and milestones of the project. </li>
+                    <li class="timeline-text">• Assisted  coworkers with computer technology issues and troubleshooting problems. </li>
+                    <li class="timeline-text">• Followed up with customers to verify satisfaction; gathered feedback regarding engagement and problem resolution.</li>
+                    <li class="timeline-text">• Maintained servers and systems to keep networks fully operational during peak periods.</li>
+                  </ul>
+                
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Temple City Education Center (TECC)</h4>
+                <span><i>STEM Major Tutor</i></span>
+                <span>Temple City, CA</span>
+                <span> December 2018 - February 2020</span>
+
+                  <ul>
+                    <li class="timeline-text">• Tutored students in computer programming, math and chinese, and developed their interest in programming development.</li>
+                    <li class="timeline-text">• Collaborated with students to complete homework assignments, strengthen weak subjects and build skills.</li>
+                    <li class="timeline-text">• Communicate with parents to develop tutoring lessons and manage time to best benefit students. </li>
+                    <li class="timeline-text">• Leveraged technology to accelerate learning by providing students with easy-to-access information.</li>
+                  </ul>
+                
+              </li>
+            </ol>
+          </section>
+
+        </section>
+
+        <section class="myskill">
+
+          <h3 class="h3 myskill-title">Skills</h3>
+
+          <ul class="myskill-list content-card">
+
+            <li class="myskill-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Coding</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="myskill-progress-bg">
+                <div class="myskill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="myskill-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structure</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="myskill-progress-bg">
+                <div class="myskill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="myskill-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">OOP Design</h5>
+                <data value="90">100%</data>
+              </div>
+
+              <div class="myskill-progress-bg">
+                <div class="myskill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="myskill-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Algorithms and Complexity</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div class="myskill-progress-bg">
+                <div class="myskill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="myskill-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Operating System</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="myskill-progress-bg">
+                <div class="myskill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="myskill-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Unity</h5>
+                <data value="50">40%</data>
+              </div>
+
+              <div class="myskill-progress-bg">
+                <div class="myskill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        </article>
+
+        <!--
+        - #Projects
+      -->
+
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects-posts">
+          <ul class="projects-posts-list">
+            <li class="projects-post-item">
+              <a href="https://github.com/yiqiaoqiao/Jump-Down-Game">
+                <figure class="projects-banner-box">
+                  <img
+                    src="./assets/images/Projects/jump_down.jpeg"
+                    alt="Design conferences in 2022"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <div class="projects-content">
+                  <div class="projects-meta">
+                    <p class="projects-category">Creator</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jun 2023 - Jul 2023</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">
+                    Jump Down Game
+                  </h3>
+
+                  <p class="projects-text">
+                    Jump Down Game build using Unity and C# with advanced features such as 
+                    animation, audio, collision, real time control, and UI.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="projects-post-item">
+              <a href="https://github.com/yiqiaoqiao/Painting-Project-using-Joystick">
+                <figure class="projects-banner-box">
+                  <img
+                    src="./assets/images/Projects/painting.jpeg"
+                    alt="Best fonts every designer"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <div class="projects-content">
+                  <div class="projects-meta">
+                    <p class="projects-category">Creator</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 2023 - Jun 2023</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">
+                    Painting Project using Joystick
+                  </h3>
+
+                  <p class="projects-text">
+                    Painting program that allows users to “paint” on a VGA screen using a 
+                    joystick and two buttons connected to an FPGA.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="projects-post-item">
+              <a href="https://github.com/yiqiaoqiao/eBruin">
+                <figure class="projects-banner-box">
+                  <img
+                    src="./assets/images/Projects/eBruin.jpeg"
+                    alt="Design digest #80"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <div class="projects-content">
+                  <div class="projects-meta">
+                    <p class="projects-category">Creator</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 2023 - Apr 2023</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">eBruin Website</h3>
+
+                  <p class="projects-text">
+                    eBruin is an online trading platform designed for UCLA students and 
+                    faculty to buy and sell goods. The platform allows users to create an account, 
+                    upload items they wish to sell, and browse listings to purchase items from other users. 
+                    The application also includes features to facilitate communication between buyers and 
+                    sellers, and to manage the status of orders.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="projects-post-item">
+              <a href="https://github.com/yiqiaoqiao/Billiard">
+                <figure class="projects-banner-box">
+                  <img
+                    src="./assets/images/Projects/billiard.jpeg"
+                    alt="UI interactions of the week"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <div class="projects-content">
+                  <div class="projects-meta">
+                    <p class="projects-category">Creator</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 2022 - Dec 2022</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">
+                    Billiard Game
+                  </h3>
+
+                  <p class="projects-text">
+                    Billiard game designed for one player to hit all balls on the 
+                    table into pockets. Player is able to drag the room and look at 
+                    the table in different directions, be able to choose different 
+                    angles and strength.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="projects-post-item">
+              <a href="https://www.youtube.com/watch?v=SvoXICW3pbk">
+                <figure class="projects-banner-box">
+                  <img
+                    src="./assets/images/Projects/logo_creator.png"
+                    alt="The forgotten art of spacing"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <div class="projects-content">
+                  <div class="projects-meta">
+                    <p class="projects-category">Creator</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Dec 2021</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">
+                    Logo Creator Design
+                  </h3>
+
+                  <p class="projects-text">
+                    Application in C++ and SFML with both front and back 
+                    end designs that allow users to create logos with 
+                    different colors, font, and styles, and also be able 
+                    to save and export images.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="projects-post-item">
+              <a href="https://www.youtube.com/watch?v=xtQiyyxaVjE">
+                <figure class="projects-banner-box">
+                  <img
+                    src="./assets/images/Projects/graphing_calc.png"
+                    alt="Design digest #79"
+                    loading="lazy"
+                  />
+                </figure>
+
+                <div class="projects-content">
+                  <div class="projects-meta">
+                    <p class="projects-category">Creator</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jun 2020</time>
+                  </div>
+
+                  <h3 class="h3 projects-item-title">
+                    Online Graphing Calculator</h3>
+
+                  <p class="projects-text">
+                    Designed and developed a graphing algorithm using 
+                    C++ and SFML and able to draw graphs in under 1 second.
+                    Constructed both front end and back end designs with 
+                    different functionality, including save and clear history, 
+                    zoom in/out, add/delete functions.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+        <!--
+        - #Hobbies
+      -->
+
+        <article class="hobbies" data-page="hobbies">
+          <header>
+            <h2 class="h2 article-title">Hobbies</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Games</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Piano Musics</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Guitar Musics</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Games</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Piano Musics</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Guitar Musics</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="piano musics"
+              >
+                <a href="https://drive.google.com/file/d/1JbOl08wk0kn1XosW2s0CoNQ5-2fQwW7o/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/piano.jpeg"
+                      alt="piano"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2017-12-17 追光者 pt 1</h3>
+
+                  <p class="project-category">Piano Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="piano musics"
+              >
+                <a href="https://drive.google.com/file/d/1pZ1IDhOVDj6H2J9zRv17xsZNk_kDifg0/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/piano.jpeg"
+                      alt="piano"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2017-12-17 追光者 pt 2</h3>
+
+                  <p class="project-category">Piano Musics</p>
+                </a>
+              </li>
+              
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/2xjDCNNH0mE">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/astra.png"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2022-09-13 Valorant Astra Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/2DOMJcqzEfE">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/skye.jpeg"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2022-09-08 Valorant Skye Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1p5wL-6DWgHyN6VZpBMc9ZthQeA7ku-Mr/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2019-06-14 晚安</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/Bdkct1EVpds">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/viper.jpeg"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2022-08-11 Valorant Viper Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/GGxP_z_2i34">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/viper.jpeg"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2022-05-25 Valorant Viper Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1A0wkDhFNY1ub5M8BHLLpnIPye3L65N7j/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2019-08-16 ハレハレヤ</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1U3tSr42Ozev2JKQBeYeaCLOfDZJQv0xP/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2019-08-18 失眠飞行</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1tokySQPHtEgm8RNWWYGgYmKHBZu1j3tc/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2019-09-07 来不及</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1dS0_v3IuLlRAPxNNh7YBvoDffzDyrys-/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2019-09-09 保留</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1f03X0Mzdqmkq_If9g1-2Ly65VTPLtnpf/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2019-09-14 野狼disco</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1d3JVuDNuqDRnH1evity7a98E6GKlNoNo/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2019-09-15 桥豆麻袋</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/fgxuSLRKBDM">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/breach.png"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2022-06-07 Valorant Breach Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/feN2TOkhKQ8">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/sage.png"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2022-06-12 Valorant Sage Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/zgGN24sloKU">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/brimstone.jpeg"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2022-07-20 Valorant Brimstone Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1JPK2NjttOU1WOeb9xllcIspMtbL_pQPe/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2020-09-04 修炼爱情</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/h4Xd1jO9Fgc">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/sage.png"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2023-03-27 Valorant  Sage Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="games"
+              >
+                <a href="https://youtu.be/PhEqL1EiSbU">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Games/omen.png"
+                      alt="valorant"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2023-04-09 Valorant Omen Ace</h3>
+
+                  <p class="project-category">Games</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1Nw5Qal5EDONh86V_CczfTfvuT3M7b2x9/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2023-07-01 Love Yourself</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="guitar musics"
+              >
+                <a href="https://drive.google.com/file/d/1NAkBtjMBCmDFmXnWhbuXCJ8L3Szk1jL9/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/guitar.jpeg"
+                      alt="guitar"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2023-07-05 易燃易爆炸</h3>
+
+                  <p class="project-category">Guitar Musics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="piano musics"
+              >
+                <a href="https://drive.google.com/file/d/1AFjjAZzou_RvZrhEpdfzEzp_z7fckcE2/view?usp=sharing">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/piano.jpeg"
+                      alt="piano"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">2023-07-05 Love Story</h3>
+
+                  <p class="project-category">Piano Musics</p>
+                </a>
+              </li>
+              
+            </ul>
+          </section>
+        </article>
+
+        
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe 
+              style="background: #FFFFFF;"
+              allowtransparency="true"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0441458566!2d-118.74138296830276!3d34.02060845999419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1695422879218!5m2!1sen!2sus" 
+              width="600" 
+              height="450" 
+              loading="lazy" 
+              style="border:0;" 
+              allowfullscreen="" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="yqq0505@gmail.com" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
